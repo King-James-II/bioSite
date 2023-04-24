@@ -1,0 +1,17 @@
+header {
+	background-color: #F56600;
+	text-decoration: underline;
+	padding: 20px;
+	text-align: center;
+	color: white;
+}
+
+#navbar {
+	background-color: #F56600;
+}
+
+footer {
+	background-color: #F56600;
+	text-align: center;
+	color: white;
+}
