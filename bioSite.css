@@ -1,3 +1,6 @@
+body {
+	font-family: Helvetica, Arial, Verdana
+}
 header {
 	background-color: #F56600;
 	text-decoration: underline;
@@ -7,10 +10,66 @@ header {
 }
 
 #navbar {
-	background-color: #F56600;
+	overflow: hidden;
+	background-color: #0A838F;
+	padding: 10px;
+	border-bottom: 5px solid #18CBDB;
+	font-weight: bold;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #FFFFFF;
+    padding:14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#navbar a:hover
+{
+    background-color:#18CBDB;
+    color: #DB6918;
+}
+
+#container {
+	margin: 10px;
+}
+
+#aboutbox {
+	padding:25px;
+	text-align: center;
+}
+
+.bio {
+	text-align:center;
+}
+
+.hobbies {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.embelishment {
+	padding:25px 25px 300px 25px;
+}
+
+.goal {
+	padding:25px 25px 300px 25px;
+}
+
+.embelishment img{
+	float:right;
+	margin:0 px 25px;
+}
+
+.goal img{
+	float:left;
+	margin:0px 25px;
 }
 
 footer {
+	padding: 25px;
+	text-align:center;
 	background-color: #F56600;
 	text-align: center;
 	color: white;
