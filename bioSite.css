@@ -14,22 +14,30 @@ header {
 	background-color: #0A838F;
 	padding: 10px;
 	border-bottom: 5px solid #18CBDB;
-	font-weight: bold;
+	text-align: center;
+}
+
+#navbar li{
+	display: inline;
 }
 
 #navbar a {
-    float: left;
-    display: block;
+    float: none;
+    display: inline-block;
     color: #FFFFFF;
     padding:14px 16px;
     text-align: center;
     text-decoration: none;
+    font-weight: bold;
+
 }
+
 
 #navbar a:hover
 {
     background-color:#18CBDB;
     color: #DB6918;
+    text-decoration: underline;
 }
 
 #container {
@@ -49,12 +57,18 @@ header {
     display: grid;
     grid-template-columns: auto auto auto;
 }
+
+figcaption {
+	text-align:center;
+	font-weight: bold;
+}
+
 .embelishment {
-	padding:25px 25px 300px 25px;
+	padding:10px 25px 250px 25px;
 }
 
 .goal {
-	padding:25px 25px 300px 25px;
+	padding:10px 25px 250px 25px;
 }
 
 .embelishment img{
