@@ -88,3 +88,12 @@ footer {
 	text-align: center;
 	color: white;
 }
+
+footer a {
+	color: white;
+	font-weight: bold;
+}
+
+footer a:hover{
+	color: #18CBDB;
+}
